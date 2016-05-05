@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Products/Debug-iphonesimulator/Pods_Car_Care.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Car Care-umbrella.h",
+          'external-contents': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Target Support Files/Pods-Car Care/Pods-Car Care-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Car_Care-Swift.h",
+          'external-contents': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Products/Debug-iphonesimulator/Pods_Car_Care.framework/Headers/Pods_Car_Care-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Products/Debug-iphonesimulator/Pods_Car_Care.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Car Care.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

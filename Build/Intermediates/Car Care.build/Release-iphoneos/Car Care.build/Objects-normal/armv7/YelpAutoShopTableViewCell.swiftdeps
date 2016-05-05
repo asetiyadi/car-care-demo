@@ -1,0 +1,554 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FavoriteProtocol"
+- "YelpAutoShopTableViewCell"
+provides-nominal:
+- "P8Car_Care16FavoriteProtocol"
+- "C8Car_Care25YelpAutoShopTableViewCell"
+provides-member:
+- ["P8Car_Care16FavoriteProtocol", ""]
+- ["C8Car_Care25YelpAutoShopTableViewCell", ""]
+provides-dynamic-lookup:
+- "businessDistanceLabel"
+- "businessReviewImageView"
+- "strPhone"
+- "businessPhoneButton"
+- "setSelected"
+- "businessAddressLabel"
+- "favoriteAction"
+- "businessNameLabel"
+- "awakeFromNib"
+- "business"
+- "isFavorite"
+depends-top-level:
+- "UILabel"
+- !private "UIControlState"
+- "String"
+- !private "=="
+- !private "UIImage"
+- "FavoriteProtocol"
+- "YelpAutoShopTableViewCell"
+- !private "StringLiteralType"
+- "UIButton"
+- "UITableViewCell"
+- !private "BooleanLiteralType"
+- "Bool"
+- "Business"
+- "UIImageView"
+depends-member:
+- !private ["Ps9AnyObject", "UIControlState"]
+- !private ["Ps9AnyObject", "UIImage"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "business"]
+- ["Ps9AnyObject", "businessAddressLabel"]
+- ["Ps9AnyObject", "businessDistanceLabel"]
+- ["Ps9AnyObject", "businessNameLabel"]
+- ["Ps9AnyObject", "businessPhoneButton"]
+- ["Ps9AnyObject", "businessReviewImageView"]
+- ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "favoriteAction"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isFavorite"]
+- !private ["Ps9AnyObject", "setImage"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", "strPhone"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "Normal"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["C8Car_Care8Business", "isFavorite"]
+- !private ["Ps11CVarArgType", "UIControlState"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- ["Ps11CVarArgType", "awakeFromNib"]
+- ["Ps11CVarArgType", "business"]
+- ["Ps11CVarArgType", "businessAddressLabel"]
+- ["Ps11CVarArgType", "businessDistanceLabel"]
+- ["Ps11CVarArgType", "businessNameLabel"]
+- ["Ps11CVarArgType", "businessPhoneButton"]
+- ["Ps11CVarArgType", "businessReviewImageView"]
+- ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "favoriteAction"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "isFavorite"]
+- !private ["Ps11CVarArgType", "setImage"]
+- ["Ps11CVarArgType", "setSelected"]
+- ["Ps11CVarArgType", "strPhone"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UIControlState"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "business"]
+- ["Ps28CustomDebugStringConvertible", "businessAddressLabel"]
+- ["Ps28CustomDebugStringConvertible", "businessDistanceLabel"]
+- ["Ps28CustomDebugStringConvertible", "businessNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "businessPhoneButton"]
+- ["Ps28CustomDebugStringConvertible", "businessReviewImageView"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "favoriteAction"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isFavorite"]
+- !private ["Ps28CustomDebugStringConvertible", "setImage"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", "strPhone"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIControlState"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "business"]
+- ["Ps23CustomStringConvertible", "businessAddressLabel"]
+- ["Ps23CustomStringConvertible", "businessDistanceLabel"]
+- ["Ps23CustomStringConvertible", "businessNameLabel"]
+- ["Ps23CustomStringConvertible", "businessPhoneButton"]
+- ["Ps23CustomStringConvertible", "businessReviewImageView"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "favoriteAction"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isFavorite"]
+- !private ["Ps23CustomStringConvertible", "setImage"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", "strPhone"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Normal"]
+- !private ["Ps9Equatable", "UIControlState"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "business"]
+- ["Ps9Equatable", "businessAddressLabel"]
+- ["Ps9Equatable", "businessDistanceLabel"]
+- ["Ps9Equatable", "businessNameLabel"]
+- ["Ps9Equatable", "businessPhoneButton"]
+- ["Ps9Equatable", "businessReviewImageView"]
+- ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "favoriteAction"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isFavorite"]
+- !private ["Ps9Equatable", "setImage"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", "strPhone"]
+- ["Ps9Equatable", ""]
+- ["P8Car_Care16FavoriteProtocol", "Business"]
+- ["P8Car_Care16FavoriteProtocol", "addFavoriteAutoShop"]
+- !private ["Ps8Hashable", "UIControlState"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "business"]
+- ["Ps8Hashable", "businessAddressLabel"]
+- ["Ps8Hashable", "businessDistanceLabel"]
+- ["Ps8Hashable", "businessNameLabel"]
+- ["Ps8Hashable", "businessPhoneButton"]
+- ["Ps8Hashable", "businessReviewImageView"]
+- ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "favoriteAction"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isFavorite"]
+- !private ["Ps8Hashable", "setImage"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", "strPhone"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "UIControlState"]
+- !private ["PSo8NSCoding", "UIImage"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "business"]
+- ["PSo8NSCoding", "businessAddressLabel"]
+- ["PSo8NSCoding", "businessDistanceLabel"]
+- ["PSo8NSCoding", "businessNameLabel"]
+- ["PSo8NSCoding", "businessPhoneButton"]
+- ["PSo8NSCoding", "businessReviewImageView"]
+- ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "favoriteAction"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "isFavorite"]
+- !private ["PSo8NSCoding", "setImage"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "strPhone"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Business"]
+- ["CSo8NSObject", "FavoriteProtocol"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIControlState"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "business"]
+- ["CSo8NSObject", "businessAddressLabel"]
+- ["CSo8NSObject", "businessDistanceLabel"]
+- ["CSo8NSObject", "businessNameLabel"]
+- ["CSo8NSObject", "businessPhoneButton"]
+- ["CSo8NSObject", "businessReviewImageView"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "favoriteAction"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isFavorite"]
+- !private ["CSo8NSObject", "setImage"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "strPhone"]
+- !private ["PSo16NSObjectProtocol", "UIControlState"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "business"]
+- ["PSo16NSObjectProtocol", "businessAddressLabel"]
+- ["PSo16NSObjectProtocol", "businessDistanceLabel"]
+- ["PSo16NSObjectProtocol", "businessNameLabel"]
+- ["PSo16NSObjectProtocol", "businessPhoneButton"]
+- ["PSo16NSObjectProtocol", "businessReviewImageView"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "favoriteAction"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isFavorite"]
+- !private ["PSo16NSObjectProtocol", "setImage"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "strPhone"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["Ps13OptionSetType", "Normal"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "Normal"]
+- !private ["Ps14SetAlgebraType", "Normal"]
+- !private ["PSo29UIAccessibilityIdentification", "UIControlState"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImage"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "business"]
+- ["PSo29UIAccessibilityIdentification", "businessAddressLabel"]
+- ["PSo29UIAccessibilityIdentification", "businessDistanceLabel"]
+- ["PSo29UIAccessibilityIdentification", "businessNameLabel"]
+- ["PSo29UIAccessibilityIdentification", "businessPhoneButton"]
+- ["PSo29UIAccessibilityIdentification", "businessReviewImageView"]
+- ["PSo29UIAccessibilityIdentification", "delegate"]
+- ["PSo29UIAccessibilityIdentification", "favoriteAction"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "isFavorite"]
+- !private ["PSo29UIAccessibilityIdentification", "setImage"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "strPhone"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UIControlState"]
+- !private ["PSo12UIAppearance", "UIImage"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "business"]
+- ["PSo12UIAppearance", "businessAddressLabel"]
+- ["PSo12UIAppearance", "businessDistanceLabel"]
+- ["PSo12UIAppearance", "businessNameLabel"]
+- ["PSo12UIAppearance", "businessPhoneButton"]
+- ["PSo12UIAppearance", "businessReviewImageView"]
+- ["PSo12UIAppearance", "delegate"]
+- ["PSo12UIAppearance", "favoriteAction"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "isFavorite"]
+- !private ["PSo12UIAppearance", "setImage"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "strPhone"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UIControlState"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "business"]
+- ["PSo21UIAppearanceContainer", "businessAddressLabel"]
+- ["PSo21UIAppearanceContainer", "businessDistanceLabel"]
+- ["PSo21UIAppearanceContainer", "businessNameLabel"]
+- ["PSo21UIAppearanceContainer", "businessPhoneButton"]
+- ["PSo21UIAppearanceContainer", "businessReviewImageView"]
+- ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "favoriteAction"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "isFavorite"]
+- !private ["PSo21UIAppearanceContainer", "setImage"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "strPhone"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "setImage"]
+- !private ["CSo9UIControl", "setImage"]
+- !private ["VSC14UIControlState", "Normal"]
+- !private ["PSo17UICoordinateSpace", "UIControlState"]
+- !private ["PSo17UICoordinateSpace", "UIImage"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "business"]
+- ["PSo17UICoordinateSpace", "businessAddressLabel"]
+- ["PSo17UICoordinateSpace", "businessDistanceLabel"]
+- ["PSo17UICoordinateSpace", "businessNameLabel"]
+- ["PSo17UICoordinateSpace", "businessPhoneButton"]
+- ["PSo17UICoordinateSpace", "businessReviewImageView"]
+- ["PSo17UICoordinateSpace", "delegate"]
+- ["PSo17UICoordinateSpace", "favoriteAction"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "isFavorite"]
+- !private ["PSo17UICoordinateSpace", "setImage"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "strPhone"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UIControlState"]
+- !private ["PSo13UIDynamicItem", "UIImage"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "business"]
+- ["PSo13UIDynamicItem", "businessAddressLabel"]
+- ["PSo13UIDynamicItem", "businessDistanceLabel"]
+- ["PSo13UIDynamicItem", "businessNameLabel"]
+- ["PSo13UIDynamicItem", "businessPhoneButton"]
+- ["PSo13UIDynamicItem", "businessReviewImageView"]
+- ["PSo13UIDynamicItem", "delegate"]
+- ["PSo13UIDynamicItem", "favoriteAction"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "isFavorite"]
+- !private ["PSo13UIDynamicItem", "setImage"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "strPhone"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "UIControlState"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "business"]
+- ["PSo18UIFocusEnvironment", "businessAddressLabel"]
+- ["PSo18UIFocusEnvironment", "businessDistanceLabel"]
+- ["PSo18UIFocusEnvironment", "businessNameLabel"]
+- ["PSo18UIFocusEnvironment", "businessPhoneButton"]
+- ["PSo18UIFocusEnvironment", "businessReviewImageView"]
+- ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "favoriteAction"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "isFavorite"]
+- !private ["PSo18UIFocusEnvironment", "setImage"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "strPhone"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIControlState"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIImage"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "business"]
+- ["PSo27UIGestureRecognizerDelegate", "businessAddressLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "businessDistanceLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "businessNameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "businessPhoneButton"]
+- ["PSo27UIGestureRecognizerDelegate", "businessReviewImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "delegate"]
+- ["PSo27UIGestureRecognizerDelegate", "favoriteAction"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "isFavorite"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "strPhone"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UIImage", "init"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Business"]
+- ["CSo11UIResponder", "FavoriteProtocol"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIControlState"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "business"]
+- ["CSo11UIResponder", "businessAddressLabel"]
+- ["CSo11UIResponder", "businessDistanceLabel"]
+- ["CSo11UIResponder", "businessNameLabel"]
+- ["CSo11UIResponder", "businessPhoneButton"]
+- ["CSo11UIResponder", "businessReviewImageView"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "favoriteAction"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "isFavorite"]
+- !private ["CSo11UIResponder", "setImage"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "strPhone"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "Business"]
+- ["CSo15UITableViewCell", "FavoriteProtocol"]
+- ["CSo15UITableViewCell", "String"]
+- ["CSo15UITableViewCell", "UIButton"]
+- !private ["CSo15UITableViewCell", "UIControlState"]
+- !private ["CSo15UITableViewCell", "UIImage"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "business"]
+- ["CSo15UITableViewCell", "businessAddressLabel"]
+- ["CSo15UITableViewCell", "businessDistanceLabel"]
+- ["CSo15UITableViewCell", "businessNameLabel"]
+- ["CSo15UITableViewCell", "businessPhoneButton"]
+- ["CSo15UITableViewCell", "businessReviewImageView"]
+- ["CSo15UITableViewCell", "delegate"]
+- ["CSo15UITableViewCell", "favoriteAction"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "isFavorite"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "strPhone"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "UIControlState"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "business"]
+- ["PSo18UITraitEnvironment", "businessAddressLabel"]
+- ["PSo18UITraitEnvironment", "businessDistanceLabel"]
+- ["PSo18UITraitEnvironment", "businessNameLabel"]
+- ["PSo18UITraitEnvironment", "businessPhoneButton"]
+- ["PSo18UITraitEnvironment", "businessReviewImageView"]
+- ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "favoriteAction"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "isFavorite"]
+- !private ["PSo18UITraitEnvironment", "setImage"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "strPhone"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "Business"]
+- ["CSo6UIView", "FavoriteProtocol"]
+- ["CSo6UIView", "String"]
+- ["CSo6UIView", "UIButton"]
+- !private ["CSo6UIView", "UIControlState"]
+- !private ["CSo6UIView", "UIImage"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "business"]
+- ["CSo6UIView", "businessAddressLabel"]
+- ["CSo6UIView", "businessDistanceLabel"]
+- ["CSo6UIView", "businessNameLabel"]
+- ["CSo6UIView", "businessPhoneButton"]
+- ["CSo6UIView", "businessReviewImageView"]
+- ["CSo6UIView", "delegate"]
+- ["CSo6UIView", "favoriteAction"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "isFavorite"]
+- !private ["CSo6UIView", "setImage"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "strPhone"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "Bool"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "Business"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "FavoriteProtocol"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "String"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "UIButton"]
+- !private ["C8Car_Care25YelpAutoShopTableViewCell", "UIControlState"]
+- !private ["C8Car_Care25YelpAutoShopTableViewCell", "UIImage"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "UIImageView"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "UILabel"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "awakeFromNib"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "business"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "businessAddressLabel"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "businessDistanceLabel"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "businessNameLabel"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "businessPhoneButton"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "businessReviewImageView"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "deinit"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "delegate"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "favoriteAction"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "init"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "isFavorite"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "setSelected"]
+- ["C8Car_Care25YelpAutoShopTableViewCell", "strPhone"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "UIControlState"]
+- !private ["Ps12_Reflectable", "UIImage"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "awakeFromNib"]
+- ["Ps12_Reflectable", "business"]
+- ["Ps12_Reflectable", "businessAddressLabel"]
+- ["Ps12_Reflectable", "businessDistanceLabel"]
+- ["Ps12_Reflectable", "businessNameLabel"]
+- ["Ps12_Reflectable", "businessPhoneButton"]
+- ["Ps12_Reflectable", "businessReviewImageView"]
+- ["Ps12_Reflectable", "delegate"]
+- ["Ps12_Reflectable", "favoriteAction"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "isFavorite"]
+- !private ["Ps12_Reflectable", "setImage"]
+- ["Ps12_Reflectable", "setSelected"]
+- ["Ps12_Reflectable", "strPhone"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "C8Car_Care8Business"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P8Car_Care16FavoriteProtocol"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps13OptionSetType"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps14SetAlgebraType"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- !private "CSo9UIControl"
+- !private "VSC14UIControlState"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UIImage"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "C8Car_Care25YelpAutoShopTableViewCell"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "e0ae8a3f9845d43d7a7f7254db12c7c7"

@@ -1,0 +1,480 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HomeViewController"
+provides-nominal:
+- "C8Car_Care18HomeViewController"
+provides-member:
+- ["C8Car_Care18HomeViewController", ""]
+provides-dynamic-lookup:
+- "mileageTrackerButton"
+- "viewDidLoad"
+- "addVehicleButton"
+- "roadAssistButton"
+- "managedObjectContext"
+- "serviceHistoryButton"
+- "didReceiveMemoryWarning"
+- "prepareForSegue"
+- "mainView"
+- "viewWillAppear"
+depends-top-level:
+- !private "Constant"
+- "Bool"
+- !private "=="
+- "UIButton"
+- "NSManagedObjectContext"
+- !private "~="
+- !private "MyVehicleViewController"
+- "UIViewController"
+- "UIView"
+- !private "print"
+- "UIStoryboardSegue"
+- !private "RoadAssistViewController"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "HomeViewController"
+- !private "AutoShopViewController"
+depends-member:
+- !private ["Ps9AnyObject", "Constant"]
+- ["Ps9AnyObject", "addVehicleButton"]
+- !private ["Ps9AnyObject", "destinationViewController"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "mainView"]
+- ["Ps9AnyObject", "managedObjectContext"]
+- ["Ps9AnyObject", "mileageTrackerButton"]
+- ["Ps9AnyObject", "prepareForSegue"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "roadAssistButton"]
+- !private ["Ps9AnyObject", "sceneType"]
+- ["Ps9AnyObject", "serviceHistoryButton"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- !private ["C8Car_Care22AutoShopViewController", "managedObjectContext"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSo25CLLocationManagerDelegate", "managedObjectContext"]
+- !private ["Ps11CVarArgType", "Constant"]
+- ["Ps11CVarArgType", "addVehicleButton"]
+- !private ["Ps11CVarArgType", "destinationViewController"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "identifier"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "mainView"]
+- ["Ps11CVarArgType", "managedObjectContext"]
+- ["Ps11CVarArgType", "mileageTrackerButton"]
+- ["Ps11CVarArgType", "prepareForSegue"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "roadAssistButton"]
+- !private ["Ps11CVarArgType", "sceneType"]
+- ["Ps11CVarArgType", "serviceHistoryButton"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- !private ["V8Car_Care8Constant", "SceneType"]
+- ["V8Car_Care8Constant", "SegueIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "Constant"]
+- ["Ps28CustomDebugStringConvertible", "addVehicleButton"]
+- !private ["Ps28CustomDebugStringConvertible", "destinationViewController"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "mainView"]
+- ["Ps28CustomDebugStringConvertible", "managedObjectContext"]
+- ["Ps28CustomDebugStringConvertible", "mileageTrackerButton"]
+- ["Ps28CustomDebugStringConvertible", "prepareForSegue"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "roadAssistButton"]
+- !private ["Ps28CustomDebugStringConvertible", "sceneType"]
+- ["Ps28CustomDebugStringConvertible", "serviceHistoryButton"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Constant"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "addVehicleButton"]
+- !private ["Ps23CustomStringConvertible", "destinationViewController"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "mainView"]
+- ["Ps23CustomStringConvertible", "managedObjectContext"]
+- ["Ps23CustomStringConvertible", "mileageTrackerButton"]
+- ["Ps23CustomStringConvertible", "prepareForSegue"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "roadAssistButton"]
+- !private ["Ps23CustomStringConvertible", "sceneType"]
+- ["Ps23CustomStringConvertible", "serviceHistoryButton"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Constant"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "addVehicleButton"]
+- !private ["Ps9Equatable", "destinationViewController"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "mainView"]
+- ["Ps9Equatable", "managedObjectContext"]
+- ["Ps9Equatable", "mileageTrackerButton"]
+- ["Ps9Equatable", "prepareForSegue"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "roadAssistButton"]
+- !private ["Ps9Equatable", "sceneType"]
+- ["Ps9Equatable", "serviceHistoryButton"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["P8Car_Care16FavoriteProtocol", "managedObjectContext"]
+- !private ["Ps8Hashable", "Constant"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "addVehicleButton"]
+- !private ["Ps8Hashable", "destinationViewController"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "mainView"]
+- ["Ps8Hashable", "managedObjectContext"]
+- ["Ps8Hashable", "mileageTrackerButton"]
+- ["Ps8Hashable", "prepareForSegue"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "roadAssistButton"]
+- !private ["Ps8Hashable", "sceneType"]
+- ["Ps8Hashable", "serviceHistoryButton"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- ["C8Car_Care18HomeViewController", "AnyObject"]
+- !private ["C8Car_Care18HomeViewController", "AutoShopViewController"]
+- ["C8Car_Care18HomeViewController", "Bool"]
+- !private ["C8Car_Care18HomeViewController", "Constant"]
+- !private ["C8Car_Care18HomeViewController", "MyVehicleViewController"]
+- ["C8Car_Care18HomeViewController", "NSManagedObjectContext"]
+- !private ["C8Car_Care18HomeViewController", "RoadAssistViewController"]
+- ["C8Car_Care18HomeViewController", "UIButton"]
+- ["C8Car_Care18HomeViewController", "UIStoryboardSegue"]
+- ["C8Car_Care18HomeViewController", "UIView"]
+- ["C8Car_Care18HomeViewController", "addVehicleButton"]
+- ["C8Car_Care18HomeViewController", "deinit"]
+- ["C8Car_Care18HomeViewController", "didReceiveMemoryWarning"]
+- ["C8Car_Care18HomeViewController", "init"]
+- ["C8Car_Care18HomeViewController", "mainView"]
+- ["C8Car_Care18HomeViewController", "managedObjectContext"]
+- ["C8Car_Care18HomeViewController", "mileageTrackerButton"]
+- ["C8Car_Care18HomeViewController", "prepareForSegue"]
+- !private ["C8Car_Care18HomeViewController", "print"]
+- ["C8Car_Care18HomeViewController", "roadAssistButton"]
+- ["C8Car_Care18HomeViewController", "serviceHistoryButton"]
+- ["C8Car_Care18HomeViewController", "viewDidLoad"]
+- ["C8Car_Care18HomeViewController", "viewWillAppear"]
+- !private ["C8Car_Care23MyVehicleViewController", "managedObjectContext"]
+- !private ["C8Car_Care23MyVehicleViewController", "sceneType"]
+- !private ["PSo8NSCoding", "Constant"]
+- ["PSo8NSCoding", "addVehicleButton"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "mainView"]
+- ["PSo8NSCoding", "managedObjectContext"]
+- ["PSo8NSCoding", "mileageTrackerButton"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "roadAssistButton"]
+- !private ["PSo8NSCoding", "sceneType"]
+- ["PSo8NSCoding", "serviceHistoryButton"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "Constant"]
+- ["PSo26NSExtensionRequestHandling", "addVehicleButton"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "mainView"]
+- ["PSo26NSExtensionRequestHandling", "managedObjectContext"]
+- ["PSo26NSExtensionRequestHandling", "mileageTrackerButton"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "roadAssistButton"]
+- !private ["PSo26NSExtensionRequestHandling", "sceneType"]
+- ["PSo26NSExtensionRequestHandling", "serviceHistoryButton"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "AutoShopViewController"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Constant"]
+- !private ["CSo8NSObject", "MyVehicleViewController"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- !private ["CSo8NSObject", "RoadAssistViewController"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "addVehicleButton"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "mainView"]
+- ["CSo8NSObject", "managedObjectContext"]
+- ["CSo8NSObject", "mileageTrackerButton"]
+- ["CSo8NSObject", "prepareForSegue"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "roadAssistButton"]
+- !private ["CSo8NSObject", "sceneType"]
+- ["CSo8NSObject", "serviceHistoryButton"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "Constant"]
+- ["PSo16NSObjectProtocol", "addVehicleButton"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "mainView"]
+- ["PSo16NSObjectProtocol", "managedObjectContext"]
+- ["PSo16NSObjectProtocol", "mileageTrackerButton"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "roadAssistButton"]
+- !private ["PSo16NSObjectProtocol", "sceneType"]
+- ["PSo16NSObjectProtocol", "serviceHistoryButton"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["C8Car_Care24RoadAssistViewController", "managedObjectContext"]
+- !private ["VV8Car_Care8Constant9SceneType", "MILEAGE_TRACKER"]
+- !private ["VV8Car_Care8Constant9SceneType", "MY_VEHICLES"]
+- !private ["VV8Car_Care8Constant9SceneType", "SERVICE_RECORDS"]
+- !private ["VV8Car_Care8Constant15SegueIdentifier", "AUTO_SHOP"]
+- !private ["VV8Car_Care8Constant15SegueIdentifier", "MILEAGE_TRACKER"]
+- !private ["VV8Car_Care8Constant15SegueIdentifier", "MY_VEHICLES"]
+- !private ["VV8Car_Care8Constant15SegueIdentifier", "ROAD_ASSIST"]
+- !private ["VV8Car_Care8Constant15SegueIdentifier", "SERVICE_HISTORY"]
+- !private ["SS", "deinit"]
+- !private ["PSo21UIAppearanceContainer", "Constant"]
+- ["PSo21UIAppearanceContainer", "addVehicleButton"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "mainView"]
+- ["PSo21UIAppearanceContainer", "managedObjectContext"]
+- ["PSo21UIAppearanceContainer", "mileageTrackerButton"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "roadAssistButton"]
+- !private ["PSo21UIAppearanceContainer", "sceneType"]
+- ["PSo21UIAppearanceContainer", "serviceHistoryButton"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo26UICollectionViewDataSource", "managedObjectContext"]
+- !private ["PSo26UICollectionViewDataSource", "sceneType"]
+- !private ["PSo24UICollectionViewDelegate", "managedObjectContext"]
+- !private ["PSo24UICollectionViewDelegate", "sceneType"]
+- !private ["PSo18UIContentContainer", "Constant"]
+- ["PSo18UIContentContainer", "addVehicleButton"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "mainView"]
+- ["PSo18UIContentContainer", "managedObjectContext"]
+- ["PSo18UIContentContainer", "mileageTrackerButton"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "roadAssistButton"]
+- !private ["PSo18UIContentContainer", "sceneType"]
+- ["PSo18UIContentContainer", "serviceHistoryButton"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "Constant"]
+- ["PSo18UIFocusEnvironment", "addVehicleButton"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "mainView"]
+- ["PSo18UIFocusEnvironment", "managedObjectContext"]
+- ["PSo18UIFocusEnvironment", "mileageTrackerButton"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "roadAssistButton"]
+- !private ["PSo18UIFocusEnvironment", "sceneType"]
+- ["PSo18UIFocusEnvironment", "serviceHistoryButton"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "AutoShopViewController"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "Constant"]
+- !private ["CSo11UIResponder", "MyVehicleViewController"]
+- ["CSo11UIResponder", "NSManagedObjectContext"]
+- !private ["CSo11UIResponder", "RoadAssistViewController"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "addVehicleButton"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "mainView"]
+- ["CSo11UIResponder", "managedObjectContext"]
+- ["CSo11UIResponder", "mileageTrackerButton"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "roadAssistButton"]
+- !private ["CSo11UIResponder", "sceneType"]
+- ["CSo11UIResponder", "serviceHistoryButton"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["PSo20UIScrollViewDelegate", "managedObjectContext"]
+- !private ["PSo20UIScrollViewDelegate", "sceneType"]
+- !private ["PSo16UIStateRestoring", "Constant"]
+- ["PSo16UIStateRestoring", "addVehicleButton"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "mainView"]
+- ["PSo16UIStateRestoring", "managedObjectContext"]
+- ["PSo16UIStateRestoring", "mileageTrackerButton"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "roadAssistButton"]
+- !private ["PSo16UIStateRestoring", "sceneType"]
+- ["PSo16UIStateRestoring", "serviceHistoryButton"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["PSo21UITableViewDataSource", "managedObjectContext"]
+- !private ["PSo19UITableViewDelegate", "managedObjectContext"]
+- !private ["PSo18UITraitEnvironment", "Constant"]
+- ["PSo18UITraitEnvironment", "addVehicleButton"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "mainView"]
+- ["PSo18UITraitEnvironment", "managedObjectContext"]
+- ["PSo18UITraitEnvironment", "mileageTrackerButton"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "roadAssistButton"]
+- !private ["PSo18UITraitEnvironment", "sceneType"]
+- ["PSo18UITraitEnvironment", "serviceHistoryButton"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "AutoShopViewController"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "Constant"]
+- !private ["CSo16UIViewController", "MyVehicleViewController"]
+- ["CSo16UIViewController", "NSManagedObjectContext"]
+- !private ["CSo16UIViewController", "RoadAssistViewController"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "addVehicleButton"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "mainView"]
+- ["CSo16UIViewController", "managedObjectContext"]
+- ["CSo16UIViewController", "mileageTrackerButton"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "roadAssistButton"]
+- !private ["CSo16UIViewController", "sceneType"]
+- ["CSo16UIViewController", "serviceHistoryButton"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C8Car_Care22AutoShopViewController"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "PSo25CLLocationManagerDelegate"
+- "Ps11CVarArgType"
+- "V8Car_Care8Constant"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "P8Car_Care16FavoriteProtocol"
+- "Ps8Hashable"
+- "C8Car_Care18HomeViewController"
+- !private "C8Car_Care23MyVehicleViewController"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "C8Car_Care24RoadAssistViewController"
+- !private "VV8Car_Care8Constant9SceneType"
+- !private "VV8Car_Care8Constant15SegueIdentifier"
+- !private "SS"
+- "PSo21UIAppearanceContainer"
+- !private "PSo26UICollectionViewDataSource"
+- !private "PSo24UICollectionViewDelegate"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "8a6a888dd1019d5537c7e1d8f940875b"

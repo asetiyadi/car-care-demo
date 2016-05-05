@@ -1,0 +1,172 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C8Car_Care3Car", ""]
+- ["C8Car_Care3Car", "image"]
+- ["C8Car_Care3Car", "make"]
+- ["C8Car_Care3Car", "model"]
+- ["C8Car_Care3Car", "name"]
+- ["C8Car_Care3Car", "registerMileage"]
+- ["C8Car_Care3Car", "submodel"]
+- ["C8Car_Care3Car", "year"]
+- ["C8Car_Care3Car", "avgMilePerDay"]
+- ["C8Car_Care3Car", "mileageTracker"]
+- ["C8Car_Care3Car", "service"]
+provides-dynamic-lookup:
+- "image"
+- "avgMilePerDay"
+- "mileageTracker"
+- "name"
+- "submodel"
+- "year"
+- "model"
+- "registerMileage"
+- "service"
+- "make"
+depends-top-level:
+- "String"
+- "NSData"
+- "Car"
+- "NSNumber"
+- "NSSet"
+depends-member:
+- ["Ps9AnyObject", "avgMilePerDay"]
+- ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "make"]
+- ["Ps9AnyObject", "mileageTracker"]
+- ["Ps9AnyObject", "model"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "registerMileage"]
+- ["Ps9AnyObject", "service"]
+- ["Ps9AnyObject", "submodel"]
+- ["Ps9AnyObject", "year"]
+- ["Ps11CVarArgType", "avgMilePerDay"]
+- ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "make"]
+- ["Ps11CVarArgType", "mileageTracker"]
+- ["Ps11CVarArgType", "model"]
+- ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", "registerMileage"]
+- ["Ps11CVarArgType", "service"]
+- ["Ps11CVarArgType", "submodel"]
+- ["Ps11CVarArgType", "year"]
+- ["C8Car_Care3Car", "NSData"]
+- ["C8Car_Care3Car", "NSNumber"]
+- ["C8Car_Care3Car", "NSSet"]
+- ["C8Car_Care3Car", "String"]
+- ["C8Car_Care3Car", "avgMilePerDay"]
+- ["C8Car_Care3Car", "image"]
+- ["C8Car_Care3Car", "make"]
+- ["C8Car_Care3Car", "mileageTracker"]
+- ["C8Car_Care3Car", "model"]
+- ["C8Car_Care3Car", "name"]
+- ["C8Car_Care3Car", "registerMileage"]
+- ["C8Car_Care3Car", "service"]
+- ["C8Car_Care3Car", "submodel"]
+- ["C8Car_Care3Car", "year"]
+- ["Ps28CustomDebugStringConvertible", "avgMilePerDay"]
+- ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "make"]
+- ["Ps28CustomDebugStringConvertible", "mileageTracker"]
+- ["Ps28CustomDebugStringConvertible", "model"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "registerMileage"]
+- ["Ps28CustomDebugStringConvertible", "service"]
+- ["Ps28CustomDebugStringConvertible", "submodel"]
+- ["Ps28CustomDebugStringConvertible", "year"]
+- ["Ps23CustomStringConvertible", "avgMilePerDay"]
+- ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "make"]
+- ["Ps23CustomStringConvertible", "mileageTracker"]
+- ["Ps23CustomStringConvertible", "model"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "registerMileage"]
+- ["Ps23CustomStringConvertible", "service"]
+- ["Ps23CustomStringConvertible", "submodel"]
+- ["Ps23CustomStringConvertible", "year"]
+- ["Ps9Equatable", "avgMilePerDay"]
+- ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "make"]
+- ["Ps9Equatable", "mileageTracker"]
+- ["Ps9Equatable", "model"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "registerMileage"]
+- ["Ps9Equatable", "service"]
+- ["Ps9Equatable", "submodel"]
+- ["Ps9Equatable", "year"]
+- ["Ps8Hashable", "avgMilePerDay"]
+- ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "make"]
+- ["Ps8Hashable", "mileageTracker"]
+- ["Ps8Hashable", "model"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "registerMileage"]
+- ["Ps8Hashable", "service"]
+- ["Ps8Hashable", "submodel"]
+- ["Ps8Hashable", "year"]
+- ["CSo15NSManagedObject", "NSData"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "NSSet"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "avgMilePerDay"]
+- ["CSo15NSManagedObject", "image"]
+- ["CSo15NSManagedObject", "make"]
+- ["CSo15NSManagedObject", "mileageTracker"]
+- ["CSo15NSManagedObject", "model"]
+- ["CSo15NSManagedObject", "name"]
+- ["CSo15NSManagedObject", "registerMileage"]
+- ["CSo15NSManagedObject", "service"]
+- ["CSo15NSManagedObject", "submodel"]
+- ["CSo15NSManagedObject", "year"]
+- ["CSo8NSObject", "NSData"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "NSSet"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "avgMilePerDay"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "make"]
+- ["CSo8NSObject", "mileageTracker"]
+- ["CSo8NSObject", "model"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "registerMileage"]
+- ["CSo8NSObject", "service"]
+- ["CSo8NSObject", "submodel"]
+- ["CSo8NSObject", "year"]
+- ["PSo16NSObjectProtocol", "avgMilePerDay"]
+- ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "make"]
+- ["PSo16NSObjectProtocol", "mileageTracker"]
+- ["PSo16NSObjectProtocol", "model"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "registerMileage"]
+- ["PSo16NSObjectProtocol", "service"]
+- ["PSo16NSObjectProtocol", "submodel"]
+- ["PSo16NSObjectProtocol", "year"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "C8Car_Care3Car"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "574b0d149b2bc13a2edf835d4a13b136"

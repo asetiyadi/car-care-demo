@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "3e721925afe21cb52ca76fdbfd395f36"
+build_time: [515729274, 573196000]
+inputs:
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Alamofire.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Download.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Error.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Manager.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/MultipartFormData.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Notifications.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/ParameterEncoding.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Request.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Response.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/ResponseSerialization.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Result.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/ServerTrustPolicy.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Stream.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Timeline.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Upload.swift": [513216621, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care Demo/Pods/Alamofire/Source/Validation.swift": [513216621, 0]

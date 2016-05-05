@@ -1,0 +1,88 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MileageTracker"
+provides-nominal:
+- "C8Car_Care14MileageTracker"
+provides-member:
+- ["C8Car_Care14MileageTracker", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSManagedObject"
+- "MileageTracker"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["C8Car_Care14MileageTracker", "deinit"]
+- ["C8Car_Care14MileageTracker", "init"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C8Car_Care14MileageTracker"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "2a1bbd9cc276a008208d59ab5e56f67a"

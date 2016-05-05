@@ -1,0 +1,373 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C8Car_Care11AppDelegate"
+provides-member:
+- ["C8Car_Care11AppDelegate", ""]
+provides-dynamic-lookup:
+- "window"
+- "applicationWillTerminate"
+- "applicationWillResignActive"
+- "application"
+- "applicationDidEnterBackground"
+- "managedObjectContext"
+- "applicationWillEnterForeground"
+- "applicationDidBecomeActive"
+depends-top-level:
+- !private "CarService"
+- "UIResponder"
+- "UIWindow"
+- "UIApplicationDelegate"
+- "UIApplication"
+- "NSManagedObjectContext"
+- !private "HomeViewController"
+- "AppDelegate"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "Bool"
+- "NSObject"
+- "CoreData"
+depends-member:
+- !private ["Ps9AnyObject", "CarService"]
+- ["Ps9AnyObject", "CoreData"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- ["Ps9AnyObject", "coreData"]
+- !private ["Ps9AnyObject", "deleteVehicleData"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadVehicleData"]
+- ["Ps9AnyObject", "managedObjectContext"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- ["C8Car_Care11AppDelegate", "AnyObject"]
+- ["C8Car_Care11AppDelegate", "Bool"]
+- !private ["C8Car_Care11AppDelegate", "CarService"]
+- ["C8Car_Care11AppDelegate", "CoreData"]
+- !private ["C8Car_Care11AppDelegate", "HomeViewController"]
+- ["C8Car_Care11AppDelegate", "NSManagedObjectContext"]
+- ["C8Car_Care11AppDelegate", "NSObject"]
+- ["C8Car_Care11AppDelegate", "UIApplication"]
+- ["C8Car_Care11AppDelegate", "UIWindow"]
+- ["C8Car_Care11AppDelegate", "application"]
+- ["C8Car_Care11AppDelegate", "applicationDidBecomeActive"]
+- ["C8Car_Care11AppDelegate", "applicationDidEnterBackground"]
+- ["C8Car_Care11AppDelegate", "applicationDidFinishLaunching"]
+- ["C8Car_Care11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C8Car_Care11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C8Car_Care11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C8Car_Care11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C8Car_Care11AppDelegate", "applicationSignificantTimeChange"]
+- ["C8Car_Care11AppDelegate", "applicationWillEnterForeground"]
+- ["C8Car_Care11AppDelegate", "applicationWillResignActive"]
+- ["C8Car_Care11AppDelegate", "applicationWillTerminate"]
+- ["C8Car_Care11AppDelegate", "coreData"]
+- ["C8Car_Care11AppDelegate", "deinit"]
+- ["C8Car_Care11AppDelegate", "init"]
+- ["C8Car_Care11AppDelegate", "managedObjectContext"]
+- ["C8Car_Care11AppDelegate", "window"]
+- !private ["Ps11CVarArgType", "CarService"]
+- ["Ps11CVarArgType", "CoreData"]
+- ["Ps11CVarArgType", "application"]
+- ["Ps11CVarArgType", "applicationDidBecomeActive"]
+- ["Ps11CVarArgType", "applicationDidEnterBackground"]
+- ["Ps11CVarArgType", "applicationDidFinishLaunching"]
+- ["Ps11CVarArgType", "applicationDidReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps11CVarArgType", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps11CVarArgType", "applicationShouldRequestHealthAuthorization"]
+- ["Ps11CVarArgType", "applicationSignificantTimeChange"]
+- ["Ps11CVarArgType", "applicationWillEnterForeground"]
+- ["Ps11CVarArgType", "applicationWillResignActive"]
+- ["Ps11CVarArgType", "applicationWillTerminate"]
+- ["Ps11CVarArgType", "coreData"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "managedObjectContext"]
+- !private ["Ps11CVarArgType", "rootViewController"]
+- ["Ps11CVarArgType", "window"]
+- ["Ps11CVarArgType", ""]
+- !private ["C8Car_Care10CarService", "deleteVehicleData"]
+- !private ["C8Car_Care10CarService", "init"]
+- !private ["C8Car_Care10CarService", "loadVehicleData"]
+- ["C8Car_Care8CoreData", "init"]
+- !private ["C8Car_Care8CoreData", "managedObjectContext"]
+- !private ["Ps28CustomDebugStringConvertible", "CarService"]
+- ["Ps28CustomDebugStringConvertible", "CoreData"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- ["Ps28CustomDebugStringConvertible", "coreData"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "managedObjectContext"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CarService"]
+- ["Ps23CustomStringConvertible", "CoreData"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- ["Ps23CustomStringConvertible", "coreData"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "managedObjectContext"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CarService"]
+- ["Ps9Equatable", "CoreData"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- ["Ps9Equatable", "coreData"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "managedObjectContext"]
+- !private ["Ps9Equatable", "rootViewController"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CarService"]
+- ["Ps8Hashable", "CoreData"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- ["Ps8Hashable", "coreData"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "managedObjectContext"]
+- !private ["Ps8Hashable", "rootViewController"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["C8Car_Care18HomeViewController", "managedObjectContext"]
+- !private ["PSo8NSCoding", "managedObjectContext"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "managedObjectContext"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CarService"]
+- ["CSo8NSObject", "CoreData"]
+- !private ["CSo8NSObject", "HomeViewController"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "coreData"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "managedObjectContext"]
+- !private ["CSo8NSObject", "rootViewController"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "CarService"]
+- ["PSo16NSObjectProtocol", "CoreData"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- ["PSo16NSObjectProtocol", "coreData"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "managedObjectContext"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "managedObjectContext"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIApplicationDelegate", "CarService"]
+- ["PSo21UIApplicationDelegate", "CoreData"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "coreData"]
+- !private ["PSo21UIApplicationDelegate", "managedObjectContext"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo18UIContentContainer", "managedObjectContext"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "managedObjectContext"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CarService"]
+- ["CSo11UIResponder", "CoreData"]
+- !private ["CSo11UIResponder", "HomeViewController"]
+- ["CSo11UIResponder", "NSManagedObjectContext"]
+- ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "coreData"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "managedObjectContext"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo16UIStateRestoring", "managedObjectContext"]
+- !private ["PSo18UITraitEnvironment", "managedObjectContext"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "managedObjectContext"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["Ps12_Reflectable", "rootViewController"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C8Car_Care11AppDelegate"
+- "Ps11CVarArgType"
+- !private "C8Car_Care10CarService"
+- "C8Car_Care8CoreData"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "C8Car_Care18HomeViewController"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/BDBOAuth1Manager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Release-iphoneos/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "4cdc355a976acd94a539b2263cf7941a"

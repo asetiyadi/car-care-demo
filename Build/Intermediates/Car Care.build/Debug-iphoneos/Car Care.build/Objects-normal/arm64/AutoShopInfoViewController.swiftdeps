@@ -1,0 +1,845 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AutoShopInfoViewController"
+provides-nominal:
+- "C8Car_Care26AutoShopInfoViewController"
+provides-member:
+- ["C8Car_Care26AutoShopInfoViewController", ""]
+provides-dynamic-lookup:
+- "messageComposeViewController"
+- "cityLabel"
+- "addressLabel"
+- "phoneLabel"
+- "viewDidLoad"
+- "stateLabel"
+- "phoneAction"
+- "didReceiveMemoryWarning"
+- "nameLabel"
+- "managedObjectContext"
+- "backAction"
+- "selectedRecord"
+- "zipLabel"
+- "unwindFromAutoShoptEntry"
+- "prepareForSegue"
+- "setAutoShopInfo"
+depends-top-level:
+- !private "BooleanLiteralType"
+- "AutoShop"
+- "UIButton"
+- !private "Utility"
+- !private "NSURL"
+- "UILabel"
+- "MFMessageComposeViewController"
+- "AutoShopInfoViewController"
+- "UIViewController"
+- !private "Constant"
+- "NSManagedObjectContext"
+- "AnyObject"
+- "UIStoryboardSegue"
+- !private "StringLiteralType"
+- !private "UIApplication"
+- "MessageComposeResult"
+- "MFMessageComposeViewControllerDelegate"
+- !private "AutoShopEntryViewController"
+- !private "String"
+- !private "=="
+depends-member:
+- !private ["Ps9AnyObject", "Constant"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "Utility"]
+- !private ["Ps9AnyObject", "address"]
+- ["Ps9AnyObject", "addressLabel"]
+- ["Ps9AnyObject", "backAction"]
+- !private ["Ps9AnyObject", "city"]
+- ["Ps9AnyObject", "cityLabel"]
+- !private ["Ps9AnyObject", "destinationViewController"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "dismissViewControllerAnimated"]
+- !private ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "managedObjectContext"]
+- ["Ps9AnyObject", "messageComposeViewController"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "nameLabel"]
+- !private ["Ps9AnyObject", "openURL"]
+- !private ["Ps9AnyObject", "phone"]
+- ["Ps9AnyObject", "phoneAction"]
+- ["Ps9AnyObject", "phoneLabel"]
+- ["Ps9AnyObject", "prepareForSegue"]
+- ["Ps9AnyObject", "selectedRecord"]
+- !private ["Ps9AnyObject", "selectedShop"]
+- ["Ps9AnyObject", "setAutoShopInfo"]
+- !private ["Ps9AnyObject", "sharedApplication"]
+- !private ["Ps9AnyObject", "sourceViewController"]
+- !private ["Ps9AnyObject", "state"]
+- ["Ps9AnyObject", "stateLabel"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "unwindFromAutoShoptEntry"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "zip"]
+- ["Ps9AnyObject", "zipLabel"]
+- ["Ps9AnyObject", ""]
+- !private ["C8Car_Care8AutoShop", "address"]
+- !private ["C8Car_Care8AutoShop", "city"]
+- !private ["C8Car_Care8AutoShop", "name"]
+- !private ["C8Car_Care8AutoShop", "phone"]
+- !private ["C8Car_Care8AutoShop", "state"]
+- !private ["C8Car_Care8AutoShop", "zip"]
+- !private ["C8Car_Care27AutoShopEntryViewController", "managedObjectContext"]
+- !private ["C8Car_Care27AutoShopEntryViewController", "selectedShop"]
+- ["C8Car_Care26AutoShopInfoViewController", "AnyObject"]
+- ["C8Car_Care26AutoShopInfoViewController", "AutoShop"]
+- !private ["C8Car_Care26AutoShopInfoViewController", "AutoShopEntryViewController"]
+- !private ["C8Car_Care26AutoShopInfoViewController", "Constant"]
+- ["C8Car_Care26AutoShopInfoViewController", "MFMessageComposeViewController"]
+- ["C8Car_Care26AutoShopInfoViewController", "MessageComposeResult"]
+- ["C8Car_Care26AutoShopInfoViewController", "NSManagedObjectContext"]
+- !private ["C8Car_Care26AutoShopInfoViewController", "NSURL"]
+- !private ["C8Car_Care26AutoShopInfoViewController", "String"]
+- !private ["C8Car_Care26AutoShopInfoViewController", "UIApplication"]
+- ["C8Car_Care26AutoShopInfoViewController", "UIButton"]
+- ["C8Car_Care26AutoShopInfoViewController", "UILabel"]
+- ["C8Car_Care26AutoShopInfoViewController", "UIStoryboardSegue"]
+- !private ["C8Car_Care26AutoShopInfoViewController", "Utility"]
+- ["C8Car_Care26AutoShopInfoViewController", "addressLabel"]
+- ["C8Car_Care26AutoShopInfoViewController", "backAction"]
+- ["C8Car_Care26AutoShopInfoViewController", "cityLabel"]
+- ["C8Car_Care26AutoShopInfoViewController", "deinit"]
+- ["C8Car_Care26AutoShopInfoViewController", "didReceiveMemoryWarning"]
+- !private ["C8Car_Care26AutoShopInfoViewController", "dismissViewControllerAnimated"]
+- ["C8Car_Care26AutoShopInfoViewController", "init"]
+- ["C8Car_Care26AutoShopInfoViewController", "managedObjectContext"]
+- ["C8Car_Care26AutoShopInfoViewController", "messageComposeViewController"]
+- ["C8Car_Care26AutoShopInfoViewController", "nameLabel"]
+- ["C8Car_Care26AutoShopInfoViewController", "phoneAction"]
+- ["C8Car_Care26AutoShopInfoViewController", "phoneLabel"]
+- ["C8Car_Care26AutoShopInfoViewController", "prepareForSegue"]
+- ["C8Car_Care26AutoShopInfoViewController", "selectedRecord"]
+- ["C8Car_Care26AutoShopInfoViewController", "setAutoShopInfo"]
+- ["C8Car_Care26AutoShopInfoViewController", "stateLabel"]
+- ["C8Car_Care26AutoShopInfoViewController", "unwindFromAutoShoptEntry"]
+- ["C8Car_Care26AutoShopInfoViewController", "viewDidLoad"]
+- ["C8Car_Care26AutoShopInfoViewController", "zipLabel"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Constant"]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "UIApplication"]
+- !private ["Ps11CVarArgType", "Utility"]
+- !private ["Ps11CVarArgType", "address"]
+- ["Ps11CVarArgType", "addressLabel"]
+- ["Ps11CVarArgType", "backAction"]
+- !private ["Ps11CVarArgType", "city"]
+- ["Ps11CVarArgType", "cityLabel"]
+- !private ["Ps11CVarArgType", "destinationViewController"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "dismissViewControllerAnimated"]
+- !private ["Ps11CVarArgType", "identifier"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "managedObjectContext"]
+- ["Ps11CVarArgType", "messageComposeViewController"]
+- !private ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", "nameLabel"]
+- !private ["Ps11CVarArgType", "openURL"]
+- !private ["Ps11CVarArgType", "phone"]
+- ["Ps11CVarArgType", "phoneAction"]
+- ["Ps11CVarArgType", "phoneLabel"]
+- ["Ps11CVarArgType", "prepareForSegue"]
+- ["Ps11CVarArgType", "selectedRecord"]
+- !private ["Ps11CVarArgType", "selectedShop"]
+- ["Ps11CVarArgType", "setAutoShopInfo"]
+- !private ["Ps11CVarArgType", "sharedApplication"]
+- !private ["Ps11CVarArgType", "sourceViewController"]
+- !private ["Ps11CVarArgType", "state"]
+- ["Ps11CVarArgType", "stateLabel"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "unwindFromAutoShoptEntry"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- !private ["Ps11CVarArgType", "zip"]
+- ["Ps11CVarArgType", "zipLabel"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["V8Car_Care8Constant", "SegueIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "Constant"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "Utility"]
+- !private ["Ps28CustomDebugStringConvertible", "address"]
+- ["Ps28CustomDebugStringConvertible", "addressLabel"]
+- ["Ps28CustomDebugStringConvertible", "backAction"]
+- !private ["Ps28CustomDebugStringConvertible", "city"]
+- ["Ps28CustomDebugStringConvertible", "cityLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "destinationViewController"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissViewControllerAnimated"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "managedObjectContext"]
+- ["Ps28CustomDebugStringConvertible", "messageComposeViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "nameLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "openURL"]
+- !private ["Ps28CustomDebugStringConvertible", "phone"]
+- ["Ps28CustomDebugStringConvertible", "phoneAction"]
+- ["Ps28CustomDebugStringConvertible", "phoneLabel"]
+- ["Ps28CustomDebugStringConvertible", "prepareForSegue"]
+- ["Ps28CustomDebugStringConvertible", "selectedRecord"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedShop"]
+- ["Ps28CustomDebugStringConvertible", "setAutoShopInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "sourceViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "state"]
+- ["Ps28CustomDebugStringConvertible", "stateLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "unwindFromAutoShoptEntry"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "zip"]
+- ["Ps28CustomDebugStringConvertible", "zipLabel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Constant"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "Utility"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "address"]
+- ["Ps23CustomStringConvertible", "addressLabel"]
+- ["Ps23CustomStringConvertible", "backAction"]
+- !private ["Ps23CustomStringConvertible", "city"]
+- ["Ps23CustomStringConvertible", "cityLabel"]
+- !private ["Ps23CustomStringConvertible", "destinationViewController"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "dismissViewControllerAnimated"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "managedObjectContext"]
+- ["Ps23CustomStringConvertible", "messageComposeViewController"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "nameLabel"]
+- !private ["Ps23CustomStringConvertible", "openURL"]
+- !private ["Ps23CustomStringConvertible", "phone"]
+- ["Ps23CustomStringConvertible", "phoneAction"]
+- ["Ps23CustomStringConvertible", "phoneLabel"]
+- ["Ps23CustomStringConvertible", "prepareForSegue"]
+- ["Ps23CustomStringConvertible", "selectedRecord"]
+- !private ["Ps23CustomStringConvertible", "selectedShop"]
+- ["Ps23CustomStringConvertible", "setAutoShopInfo"]
+- !private ["Ps23CustomStringConvertible", "sharedApplication"]
+- !private ["Ps23CustomStringConvertible", "sourceViewController"]
+- !private ["Ps23CustomStringConvertible", "state"]
+- ["Ps23CustomStringConvertible", "stateLabel"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "unwindFromAutoShoptEntry"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "zip"]
+- ["Ps23CustomStringConvertible", "zipLabel"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Constant"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "Utility"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "address"]
+- ["Ps9Equatable", "addressLabel"]
+- ["Ps9Equatable", "backAction"]
+- !private ["Ps9Equatable", "city"]
+- ["Ps9Equatable", "cityLabel"]
+- !private ["Ps9Equatable", "destinationViewController"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "dismissViewControllerAnimated"]
+- !private ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "managedObjectContext"]
+- ["Ps9Equatable", "messageComposeViewController"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "nameLabel"]
+- !private ["Ps9Equatable", "openURL"]
+- !private ["Ps9Equatable", "phone"]
+- ["Ps9Equatable", "phoneAction"]
+- ["Ps9Equatable", "phoneLabel"]
+- ["Ps9Equatable", "prepareForSegue"]
+- ["Ps9Equatable", "selectedRecord"]
+- !private ["Ps9Equatable", "selectedShop"]
+- ["Ps9Equatable", "setAutoShopInfo"]
+- !private ["Ps9Equatable", "sharedApplication"]
+- !private ["Ps9Equatable", "sourceViewController"]
+- !private ["Ps9Equatable", "state"]
+- ["Ps9Equatable", "stateLabel"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "unwindFromAutoShoptEntry"]
+- ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "zip"]
+- ["Ps9Equatable", "zipLabel"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Constant"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "Utility"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "address"]
+- ["Ps8Hashable", "addressLabel"]
+- ["Ps8Hashable", "backAction"]
+- !private ["Ps8Hashable", "city"]
+- ["Ps8Hashable", "cityLabel"]
+- !private ["Ps8Hashable", "destinationViewController"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "dismissViewControllerAnimated"]
+- !private ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "managedObjectContext"]
+- ["Ps8Hashable", "messageComposeViewController"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "nameLabel"]
+- !private ["Ps8Hashable", "openURL"]
+- !private ["Ps8Hashable", "phone"]
+- ["Ps8Hashable", "phoneAction"]
+- ["Ps8Hashable", "phoneLabel"]
+- ["Ps8Hashable", "prepareForSegue"]
+- ["Ps8Hashable", "selectedRecord"]
+- !private ["Ps8Hashable", "selectedShop"]
+- ["Ps8Hashable", "setAutoShopInfo"]
+- !private ["Ps8Hashable", "sharedApplication"]
+- !private ["Ps8Hashable", "sourceViewController"]
+- !private ["Ps8Hashable", "state"]
+- ["Ps8Hashable", "stateLabel"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "unwindFromAutoShoptEntry"]
+- ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "zip"]
+- ["Ps8Hashable", "zipLabel"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["CSo30MFMessageComposeViewController", "dismissViewControllerAnimated"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "Constant"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "NSURL"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "UIApplication"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "Utility"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "addressLabel"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "cityLabel"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "dismissViewControllerAnimated"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "managedObjectContext"]
+- ["PSo38MFMessageComposeViewControllerDelegate", "messageComposeViewController"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "nameLabel"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "phoneLabel"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "selectedRecord"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "setAutoShopInfo"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "stateLabel"]
+- !private ["PSo38MFMessageComposeViewControllerDelegate", "zipLabel"]
+- ["PSo38MFMessageComposeViewControllerDelegate", ""]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "Constant"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "UIApplication"]
+- !private ["PSo8NSCoding", "Utility"]
+- ["PSo8NSCoding", "addressLabel"]
+- ["PSo8NSCoding", "backAction"]
+- ["PSo8NSCoding", "cityLabel"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "managedObjectContext"]
+- ["PSo8NSCoding", "messageComposeViewController"]
+- ["PSo8NSCoding", "nameLabel"]
+- ["PSo8NSCoding", "phoneAction"]
+- ["PSo8NSCoding", "phoneLabel"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- ["PSo8NSCoding", "selectedRecord"]
+- !private ["PSo8NSCoding", "selectedShop"]
+- ["PSo8NSCoding", "setAutoShopInfo"]
+- ["PSo8NSCoding", "stateLabel"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "unwindFromAutoShoptEntry"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "zipLabel"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "Constant"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- !private ["PSo26NSExtensionRequestHandling", "Utility"]
+- ["PSo26NSExtensionRequestHandling", "addressLabel"]
+- ["PSo26NSExtensionRequestHandling", "backAction"]
+- ["PSo26NSExtensionRequestHandling", "cityLabel"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "managedObjectContext"]
+- ["PSo26NSExtensionRequestHandling", "messageComposeViewController"]
+- ["PSo26NSExtensionRequestHandling", "nameLabel"]
+- ["PSo26NSExtensionRequestHandling", "phoneAction"]
+- ["PSo26NSExtensionRequestHandling", "phoneLabel"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- ["PSo26NSExtensionRequestHandling", "selectedRecord"]
+- !private ["PSo26NSExtensionRequestHandling", "selectedShop"]
+- ["PSo26NSExtensionRequestHandling", "setAutoShopInfo"]
+- ["PSo26NSExtensionRequestHandling", "stateLabel"]
+- ["PSo26NSExtensionRequestHandling", "unwindFromAutoShoptEntry"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "zipLabel"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo15NSManagedObject", "address"]
+- !private ["CSo15NSManagedObject", "city"]
+- !private ["CSo15NSManagedObject", "name"]
+- !private ["CSo15NSManagedObject", "phone"]
+- !private ["CSo15NSManagedObject", "state"]
+- !private ["CSo15NSManagedObject", "zip"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo15NSMutableString", "deinit"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "AutoShop"]
+- !private ["CSo8NSObject", "AutoShopEntryViewController"]
+- !private ["CSo8NSObject", "Constant"]
+- ["CSo8NSObject", "MFMessageComposeViewController"]
+- ["CSo8NSObject", "MessageComposeResult"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- !private ["CSo8NSObject", "Utility"]
+- !private ["CSo8NSObject", "address"]
+- ["CSo8NSObject", "addressLabel"]
+- ["CSo8NSObject", "backAction"]
+- !private ["CSo8NSObject", "city"]
+- ["CSo8NSObject", "cityLabel"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "managedObjectContext"]
+- ["CSo8NSObject", "messageComposeViewController"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "nameLabel"]
+- !private ["CSo8NSObject", "openURL"]
+- !private ["CSo8NSObject", "phone"]
+- ["CSo8NSObject", "phoneAction"]
+- ["CSo8NSObject", "phoneLabel"]
+- ["CSo8NSObject", "prepareForSegue"]
+- ["CSo8NSObject", "selectedRecord"]
+- !private ["CSo8NSObject", "selectedShop"]
+- ["CSo8NSObject", "setAutoShopInfo"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "sourceViewController"]
+- !private ["CSo8NSObject", "state"]
+- ["CSo8NSObject", "stateLabel"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "unwindFromAutoShoptEntry"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "zip"]
+- ["CSo8NSObject", "zipLabel"]
+- !private ["PSo16NSObjectProtocol", "Constant"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "Utility"]
+- !private ["PSo16NSObjectProtocol", "address"]
+- ["PSo16NSObjectProtocol", "addressLabel"]
+- ["PSo16NSObjectProtocol", "backAction"]
+- !private ["PSo16NSObjectProtocol", "city"]
+- ["PSo16NSObjectProtocol", "cityLabel"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "managedObjectContext"]
+- ["PSo16NSObjectProtocol", "messageComposeViewController"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "nameLabel"]
+- !private ["PSo16NSObjectProtocol", "openURL"]
+- !private ["PSo16NSObjectProtocol", "phone"]
+- ["PSo16NSObjectProtocol", "phoneAction"]
+- ["PSo16NSObjectProtocol", "phoneLabel"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- ["PSo16NSObjectProtocol", "selectedRecord"]
+- !private ["PSo16NSObjectProtocol", "selectedShop"]
+- ["PSo16NSObjectProtocol", "setAutoShopInfo"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "sourceViewController"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- ["PSo16NSObjectProtocol", "stateLabel"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "unwindFromAutoShoptEntry"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "zip"]
+- ["PSo16NSObjectProtocol", "zipLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["VV8Car_Care8Constant15SegueIdentifier", "AUTO_SHOP_EDIT_INFO"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Constant"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- !private ["PSo21UIAppearanceContainer", "Utility"]
+- ["PSo21UIAppearanceContainer", "addressLabel"]
+- ["PSo21UIAppearanceContainer", "backAction"]
+- ["PSo21UIAppearanceContainer", "cityLabel"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "managedObjectContext"]
+- ["PSo21UIAppearanceContainer", "messageComposeViewController"]
+- ["PSo21UIAppearanceContainer", "nameLabel"]
+- ["PSo21UIAppearanceContainer", "phoneAction"]
+- ["PSo21UIAppearanceContainer", "phoneLabel"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- ["PSo21UIAppearanceContainer", "selectedRecord"]
+- !private ["PSo21UIAppearanceContainer", "selectedShop"]
+- ["PSo21UIAppearanceContainer", "setAutoShopInfo"]
+- ["PSo21UIAppearanceContainer", "stateLabel"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "unwindFromAutoShoptEntry"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "zipLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo13UIApplication", "openURL"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo18UIContentContainer", "Constant"]
+- !private ["PSo18UIContentContainer", "NSURL"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
+- !private ["PSo18UIContentContainer", "Utility"]
+- ["PSo18UIContentContainer", "addressLabel"]
+- ["PSo18UIContentContainer", "backAction"]
+- ["PSo18UIContentContainer", "cityLabel"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "managedObjectContext"]
+- ["PSo18UIContentContainer", "messageComposeViewController"]
+- ["PSo18UIContentContainer", "nameLabel"]
+- ["PSo18UIContentContainer", "phoneAction"]
+- ["PSo18UIContentContainer", "phoneLabel"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- ["PSo18UIContentContainer", "selectedRecord"]
+- !private ["PSo18UIContentContainer", "selectedShop"]
+- ["PSo18UIContentContainer", "setAutoShopInfo"]
+- ["PSo18UIContentContainer", "stateLabel"]
+- ["PSo18UIContentContainer", "unwindFromAutoShoptEntry"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "zipLabel"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Constant"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- !private ["PSo18UIFocusEnvironment", "Utility"]
+- ["PSo18UIFocusEnvironment", "addressLabel"]
+- ["PSo18UIFocusEnvironment", "backAction"]
+- ["PSo18UIFocusEnvironment", "cityLabel"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "managedObjectContext"]
+- ["PSo18UIFocusEnvironment", "messageComposeViewController"]
+- ["PSo18UIFocusEnvironment", "nameLabel"]
+- ["PSo18UIFocusEnvironment", "phoneAction"]
+- ["PSo18UIFocusEnvironment", "phoneLabel"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- ["PSo18UIFocusEnvironment", "selectedRecord"]
+- !private ["PSo18UIFocusEnvironment", "selectedShop"]
+- ["PSo18UIFocusEnvironment", "setAutoShopInfo"]
+- ["PSo18UIFocusEnvironment", "stateLabel"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "unwindFromAutoShoptEntry"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "zipLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo22UINavigationController", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "AutoShop"]
+- !private ["CSo11UIResponder", "AutoShopEntryViewController"]
+- !private ["CSo11UIResponder", "Constant"]
+- ["CSo11UIResponder", "MFMessageComposeViewController"]
+- ["CSo11UIResponder", "MessageComposeResult"]
+- ["CSo11UIResponder", "NSManagedObjectContext"]
+- !private ["CSo11UIResponder", "NSURL"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- !private ["CSo11UIResponder", "Utility"]
+- ["CSo11UIResponder", "addressLabel"]
+- ["CSo11UIResponder", "backAction"]
+- ["CSo11UIResponder", "cityLabel"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "managedObjectContext"]
+- ["CSo11UIResponder", "messageComposeViewController"]
+- ["CSo11UIResponder", "nameLabel"]
+- !private ["CSo11UIResponder", "openURL"]
+- ["CSo11UIResponder", "phoneAction"]
+- ["CSo11UIResponder", "phoneLabel"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- ["CSo11UIResponder", "selectedRecord"]
+- !private ["CSo11UIResponder", "selectedShop"]
+- ["CSo11UIResponder", "setAutoShopInfo"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- ["CSo11UIResponder", "stateLabel"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "unwindFromAutoShoptEntry"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "zipLabel"]
+- !private ["PSo16UIStateRestoring", "Constant"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
+- !private ["PSo16UIStateRestoring", "Utility"]
+- ["PSo16UIStateRestoring", "addressLabel"]
+- ["PSo16UIStateRestoring", "backAction"]
+- ["PSo16UIStateRestoring", "cityLabel"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "managedObjectContext"]
+- ["PSo16UIStateRestoring", "messageComposeViewController"]
+- ["PSo16UIStateRestoring", "nameLabel"]
+- ["PSo16UIStateRestoring", "phoneAction"]
+- ["PSo16UIStateRestoring", "phoneLabel"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- ["PSo16UIStateRestoring", "selectedRecord"]
+- !private ["PSo16UIStateRestoring", "selectedShop"]
+- ["PSo16UIStateRestoring", "setAutoShopInfo"]
+- ["PSo16UIStateRestoring", "stateLabel"]
+- ["PSo16UIStateRestoring", "unwindFromAutoShoptEntry"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "zipLabel"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["CSo17UIStoryboardSegue", "sourceViewController"]
+- !private ["PSo19UITextFieldDelegate", "managedObjectContext"]
+- !private ["PSo19UITextFieldDelegate", "selectedShop"]
+- !private ["PSo18UITraitEnvironment", "Constant"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- !private ["PSo18UITraitEnvironment", "Utility"]
+- ["PSo18UITraitEnvironment", "addressLabel"]
+- ["PSo18UITraitEnvironment", "backAction"]
+- ["PSo18UITraitEnvironment", "cityLabel"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "managedObjectContext"]
+- ["PSo18UITraitEnvironment", "messageComposeViewController"]
+- ["PSo18UITraitEnvironment", "nameLabel"]
+- ["PSo18UITraitEnvironment", "phoneAction"]
+- ["PSo18UITraitEnvironment", "phoneLabel"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- ["PSo18UITraitEnvironment", "selectedRecord"]
+- !private ["PSo18UITraitEnvironment", "selectedShop"]
+- ["PSo18UITraitEnvironment", "setAutoShopInfo"]
+- ["PSo18UITraitEnvironment", "stateLabel"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "unwindFromAutoShoptEntry"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "zipLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "AutoShop"]
+- !private ["CSo16UIViewController", "AutoShopEntryViewController"]
+- !private ["CSo16UIViewController", "Constant"]
+- ["CSo16UIViewController", "MFMessageComposeViewController"]
+- ["CSo16UIViewController", "MessageComposeResult"]
+- ["CSo16UIViewController", "NSManagedObjectContext"]
+- !private ["CSo16UIViewController", "NSURL"]
+- !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIApplication"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- !private ["CSo16UIViewController", "Utility"]
+- ["CSo16UIViewController", "addressLabel"]
+- ["CSo16UIViewController", "backAction"]
+- ["CSo16UIViewController", "cityLabel"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "managedObjectContext"]
+- ["CSo16UIViewController", "messageComposeViewController"]
+- ["CSo16UIViewController", "nameLabel"]
+- ["CSo16UIViewController", "phoneAction"]
+- ["CSo16UIViewController", "phoneLabel"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- ["CSo16UIViewController", "selectedRecord"]
+- !private ["CSo16UIViewController", "selectedShop"]
+- ["CSo16UIViewController", "setAutoShopInfo"]
+- ["CSo16UIViewController", "stateLabel"]
+- ["CSo16UIViewController", "unwindFromAutoShoptEntry"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "zipLabel"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["V8Car_Care7Utility", "formatToPhoneNumber"]
+- !private ["V8Car_Care7Utility", "stripPhoneFormat"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "text"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C8Car_Care8AutoShop"
+- !private "C8Car_Care27AutoShopEntryViewController"
+- "C8Car_Care26AutoShopInfoViewController"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "V8Car_Care8Constant"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "CSo30MFMessageComposeViewController"
+- "PSo38MFMessageComposeViewControllerDelegate"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- !private "CSo15NSMutableString"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "VV8Car_Care8Constant15SegueIdentifier"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- !private "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "PSo19UITextFieldDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "V8Car_Care7Utility"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "a1a624dff11431c2a11f86d44d560584"

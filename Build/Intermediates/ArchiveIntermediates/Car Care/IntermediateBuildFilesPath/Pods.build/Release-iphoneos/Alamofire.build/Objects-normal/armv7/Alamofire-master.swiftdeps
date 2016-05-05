@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "ef646cbf1e1a89c1b63c8ab721653392"
+build_time: [513818124, 976623000]
+inputs:
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Alamofire.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Download.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Error.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Manager.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/MultipartFormData.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Notifications.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/ParameterEncoding.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Request.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Response.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/ResponseSerialization.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Result.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/ServerTrustPolicy.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Stream.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Timeline.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Upload.swift": [9223372036854775807, 0]
+  "/Users/setiyadi/Projects/Xcode/Car Care/Pods/Alamofire/Source/Validation.swift": [9223372036854775807, 0]

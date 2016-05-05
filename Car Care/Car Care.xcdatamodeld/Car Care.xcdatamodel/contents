@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="AutoMaker" representedClassName=".AutoMaker" syncable="YES">
+        <attribute name="make" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="autoModel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AutoModel" inverseName="autoMaker" inverseEntity="AutoModel" syncable="YES"/>
+    </entity>
+    <entity name="AutoModel" representedClassName=".AutoModel" syncable="YES">
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="autoMaker" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AutoMaker" inverseName="autoModel" inverseEntity="AutoMaker" syncable="YES"/>
+        <relationship name="autoYear" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AutoYear" inverseName="autoModel" inverseEntity="AutoYear" syncable="YES"/>
+    </entity>
+    <entity name="AutoShop" representedClassName=".AutoShop" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AutoYear" representedClassName=".AutoYear" syncable="YES">
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="autoModel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AutoModel" inverseName="autoYear" inverseEntity="AutoModel" syncable="YES"/>
+    </entity>
+    <entity name="Car" representedClassName=".Car" syncable="YES">
+        <attribute name="avgMilePerDay" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="make" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registerMileage" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="submodel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="mileageTracker" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MileageTracker" inverseName="car" inverseEntity="MileageTracker" syncable="YES"/>
+        <relationship name="service" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Service" inverseName="car" inverseEntity="Service" syncable="YES"/>
+    </entity>
+    <entity name="MileageTracker" representedClassName=".MileageTracker" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="gallonFilled" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="odometer" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pricePerGal" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="car" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Car" inverseName="mileageTracker" inverseEntity="Car" syncable="YES"/>
+    </entity>
+    <entity name="RoadAssist" representedClassName=".RoadAssist" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Service" representedClassName=".Service" syncable="YES">
+        <attribute name="cost" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mileage" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="car" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Car" inverseName="service" inverseEntity="Car" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AutoMaker" positionX="252" positionY="60" width="128" height="73"/>
+        <element name="AutoModel" positionX="259" positionY="252" width="128" height="88"/>
+        <element name="AutoShop" positionX="-288" positionY="255" width="128" height="150"/>
+        <element name="AutoYear" positionX="63" positionY="282" width="128" height="75"/>
+        <element name="Car" positionX="-261" positionY="-63" width="128" height="195"/>
+        <element name="MileageTracker" positionX="-36" positionY="-81" width="128" height="120"/>
+        <element name="RoadAssist" positionX="-137" positionY="252" width="128" height="75"/>
+        <element name="Service" positionX="-504" positionY="162" width="128" height="150"/>
+    </elements>
+</model>

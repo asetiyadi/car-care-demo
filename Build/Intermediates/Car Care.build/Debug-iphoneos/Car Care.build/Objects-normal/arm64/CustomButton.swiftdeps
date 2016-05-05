@@ -1,0 +1,403 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CustomButton"
+provides-nominal:
+- "C8Car_Care12CustomButton"
+provides-member:
+- ["C8Car_Care12CustomButton", ""]
+provides-dynamic-lookup:
+- "cornerRadius"
+- "drawRect"
+- "borderColorBlue"
+- "borderWidth"
+- "borderColorGreen"
+- "borderColorRed"
+depends-top-level:
+- "UIButton"
+- "CGFloat"
+- "Float"
+- !private "UIColor"
+- "CGRect"
+- !private "/"
+- "CustomButton"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGColor"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "borderColor"]
+- ["Ps9AnyObject", "borderColorBlue"]
+- ["Ps9AnyObject", "borderColorGreen"]
+- ["Ps9AnyObject", "borderColorRed"]
+- ["Ps9AnyObject", "borderWidth"]
+- ["Ps9AnyObject", "cornerRadius"]
+- ["Ps9AnyObject", "drawRect"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- ["Ps9AnyObject", ""]
+- !private ["CSo7CALayer", "borderColor"]
+- !private ["CSo7CALayer", "borderWidth"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "borderColor"]
+- !private ["PSo13CAMediaTiming", "borderWidth"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps11CVarArgType", "CGColor"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "borderColor"]
+- ["Ps11CVarArgType", "borderColorBlue"]
+- ["Ps11CVarArgType", "borderColorGreen"]
+- ["Ps11CVarArgType", "borderColorRed"]
+- ["Ps11CVarArgType", "borderWidth"]
+- ["Ps11CVarArgType", "cornerRadius"]
+- ["Ps11CVarArgType", "drawRect"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "layer"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "init"]
+- ["C8Car_Care12CustomButton", "CGFloat"]
+- ["C8Car_Care12CustomButton", "CGRect"]
+- ["C8Car_Care12CustomButton", "Float"]
+- !private ["C8Car_Care12CustomButton", "UIColor"]
+- ["C8Car_Care12CustomButton", "borderColorBlue"]
+- ["C8Car_Care12CustomButton", "borderColorGreen"]
+- ["C8Car_Care12CustomButton", "borderColorRed"]
+- ["C8Car_Care12CustomButton", "borderWidth"]
+- ["C8Car_Care12CustomButton", "cornerRadius"]
+- ["C8Car_Care12CustomButton", "deinit"]
+- ["C8Car_Care12CustomButton", "drawRect"]
+- ["C8Car_Care12CustomButton", "init"]
+- !private ["C8Car_Care12CustomButton", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "CGColor"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "borderColor"]
+- ["Ps28CustomDebugStringConvertible", "borderColorBlue"]
+- ["Ps28CustomDebugStringConvertible", "borderColorGreen"]
+- ["Ps28CustomDebugStringConvertible", "borderColorRed"]
+- ["Ps28CustomDebugStringConvertible", "borderWidth"]
+- ["Ps28CustomDebugStringConvertible", "cornerRadius"]
+- ["Ps28CustomDebugStringConvertible", "drawRect"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGColor"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "borderColor"]
+- ["Ps23CustomStringConvertible", "borderColorBlue"]
+- ["Ps23CustomStringConvertible", "borderColorGreen"]
+- ["Ps23CustomStringConvertible", "borderColorRed"]
+- ["Ps23CustomStringConvertible", "borderWidth"]
+- ["Ps23CustomStringConvertible", "cornerRadius"]
+- ["Ps23CustomStringConvertible", "drawRect"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGColor"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "borderColor"]
+- ["Ps9Equatable", "borderColorBlue"]
+- ["Ps9Equatable", "borderColorGreen"]
+- ["Ps9Equatable", "borderColorRed"]
+- ["Ps9Equatable", "borderWidth"]
+- ["Ps9Equatable", "cornerRadius"]
+- ["Ps9Equatable", "drawRect"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps8Hashable", "CGColor"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "borderColor"]
+- ["Ps8Hashable", "borderColorBlue"]
+- ["Ps8Hashable", "borderColorGreen"]
+- ["Ps8Hashable", "borderColorRed"]
+- ["Ps8Hashable", "borderWidth"]
+- ["Ps8Hashable", "cornerRadius"]
+- ["Ps8Hashable", "drawRect"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "borderColor"]
+- ["PSo8NSCoding", "borderColorBlue"]
+- ["PSo8NSCoding", "borderColorGreen"]
+- ["PSo8NSCoding", "borderColorRed"]
+- ["PSo8NSCoding", "borderWidth"]
+- ["PSo8NSCoding", "cornerRadius"]
+- ["PSo8NSCoding", "drawRect"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo8NSObject", "CGColor"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "Float"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "borderColor"]
+- ["CSo8NSObject", "borderColorBlue"]
+- ["CSo8NSObject", "borderColorGreen"]
+- ["CSo8NSObject", "borderColorRed"]
+- ["CSo8NSObject", "borderWidth"]
+- ["CSo8NSObject", "cornerRadius"]
+- ["CSo8NSObject", "drawRect"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "borderColor"]
+- ["PSo16NSObjectProtocol", "borderColorBlue"]
+- ["PSo16NSObjectProtocol", "borderColorGreen"]
+- ["PSo16NSObjectProtocol", "borderColorRed"]
+- ["PSo16NSObjectProtocol", "borderWidth"]
+- ["PSo16NSObjectProtocol", "cornerRadius"]
+- ["PSo16NSObjectProtocol", "drawRect"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGFloat"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- ["PSo29UIAccessibilityIdentification", "borderColorBlue"]
+- ["PSo29UIAccessibilityIdentification", "borderColorGreen"]
+- ["PSo29UIAccessibilityIdentification", "borderColorRed"]
+- ["PSo29UIAccessibilityIdentification", "borderWidth"]
+- ["PSo29UIAccessibilityIdentification", "cornerRadius"]
+- ["PSo29UIAccessibilityIdentification", "drawRect"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGFloat"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- ["PSo12UIAppearance", "borderColorBlue"]
+- ["PSo12UIAppearance", "borderColorGreen"]
+- ["PSo12UIAppearance", "borderColorRed"]
+- ["PSo12UIAppearance", "borderWidth"]
+- ["PSo12UIAppearance", "cornerRadius"]
+- ["PSo12UIAppearance", "drawRect"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- ["PSo21UIAppearanceContainer", "borderColorBlue"]
+- ["PSo21UIAppearanceContainer", "borderColorGreen"]
+- ["PSo21UIAppearanceContainer", "borderColorRed"]
+- ["PSo21UIAppearanceContainer", "borderWidth"]
+- ["PSo21UIAppearanceContainer", "cornerRadius"]
+- ["PSo21UIAppearanceContainer", "drawRect"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo8UIButton", "CGFloat"]
+- ["CSo8UIButton", "CGRect"]
+- ["CSo8UIButton", "Float"]
+- !private ["CSo8UIButton", "UIColor"]
+- ["CSo8UIButton", "borderColorBlue"]
+- ["CSo8UIButton", "borderColorGreen"]
+- ["CSo8UIButton", "borderColorRed"]
+- ["CSo8UIButton", "borderWidth"]
+- ["CSo8UIButton", "cornerRadius"]
+- ["CSo8UIButton", "drawRect"]
+- ["CSo8UIButton", "init"]
+- !private ["CSo8UIButton", "layer"]
+- ["CSo8UIButton", ""]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["CSo7UIColor", "init"]
+- ["CSo9UIControl", "CGFloat"]
+- ["CSo9UIControl", "CGRect"]
+- ["CSo9UIControl", "Float"]
+- !private ["CSo9UIControl", "UIColor"]
+- ["CSo9UIControl", "borderColorBlue"]
+- ["CSo9UIControl", "borderColorGreen"]
+- ["CSo9UIControl", "borderColorRed"]
+- ["CSo9UIControl", "borderWidth"]
+- ["CSo9UIControl", "cornerRadius"]
+- ["CSo9UIControl", "drawRect"]
+- ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "layer"]
+- !private ["PSo17UICoordinateSpace", "CGFloat"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- ["PSo17UICoordinateSpace", "borderColorBlue"]
+- ["PSo17UICoordinateSpace", "borderColorGreen"]
+- ["PSo17UICoordinateSpace", "borderColorRed"]
+- ["PSo17UICoordinateSpace", "borderWidth"]
+- ["PSo17UICoordinateSpace", "cornerRadius"]
+- ["PSo17UICoordinateSpace", "drawRect"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGFloat"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- ["PSo13UIDynamicItem", "borderColorBlue"]
+- ["PSo13UIDynamicItem", "borderColorGreen"]
+- ["PSo13UIDynamicItem", "borderColorRed"]
+- ["PSo13UIDynamicItem", "borderWidth"]
+- ["PSo13UIDynamicItem", "cornerRadius"]
+- ["PSo13UIDynamicItem", "drawRect"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- ["PSo18UIFocusEnvironment", "borderColorBlue"]
+- ["PSo18UIFocusEnvironment", "borderColorGreen"]
+- ["PSo18UIFocusEnvironment", "borderColorRed"]
+- ["PSo18UIFocusEnvironment", "borderWidth"]
+- ["PSo18UIFocusEnvironment", "cornerRadius"]
+- ["PSo18UIFocusEnvironment", "drawRect"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "Float"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "borderColorBlue"]
+- ["CSo11UIResponder", "borderColorGreen"]
+- ["CSo11UIResponder", "borderColorRed"]
+- ["CSo11UIResponder", "borderWidth"]
+- ["CSo11UIResponder", "cornerRadius"]
+- ["CSo11UIResponder", "drawRect"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- ["PSo18UITraitEnvironment", "borderColorBlue"]
+- ["PSo18UITraitEnvironment", "borderColorGreen"]
+- ["PSo18UITraitEnvironment", "borderColorRed"]
+- ["PSo18UITraitEnvironment", "borderWidth"]
+- ["PSo18UITraitEnvironment", "cornerRadius"]
+- ["PSo18UITraitEnvironment", "drawRect"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "Float"]
+- !private ["CSo6UIView", "UIColor"]
+- ["CSo6UIView", "borderColorBlue"]
+- ["CSo6UIView", "borderColorGreen"]
+- ["CSo6UIView", "borderColorRed"]
+- ["CSo6UIView", "borderWidth"]
+- ["CSo6UIView", "cornerRadius"]
+- ["CSo6UIView", "drawRect"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "CGColor"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps12_Reflectable", "CGFloat"]
+- !private ["Ps12_Reflectable", "UIColor"]
+- ["Ps12_Reflectable", "borderColorBlue"]
+- ["Ps12_Reflectable", "borderColorGreen"]
+- ["Ps12_Reflectable", "borderColorRed"]
+- ["Ps12_Reflectable", "borderWidth"]
+- ["Ps12_Reflectable", "cornerRadius"]
+- ["Ps12_Reflectable", "drawRect"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "layer"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "C8Car_Care12CustomButton"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- "Ps8Hashable"
+- !private "Ps25IntegerLiteralConvertible"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo8UIButton"
+- !private "CSo7UIColor"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIAlertView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPRequestOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLConnectionOperation.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/NSString+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/NSDictionary+BDBOAuth1Manager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1SessionManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestSerializer.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1RequestOperationManager.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Headers/BDBOAuth1Manager-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/BDBOAuth1Manager.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "98f1a34cca3c8534e601135799c39f60"

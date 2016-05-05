@@ -1,0 +1,294 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MyVehicleTableViewCell"
+provides-nominal:
+- "C8Car_Care22MyVehicleTableViewCell"
+provides-member:
+- ["C8Car_Care22MyVehicleTableViewCell", ""]
+provides-dynamic-lookup:
+- "carMakeLabel"
+- "setSelected"
+- "carNameLabel"
+- "awakeFromNib"
+- "carYearLabel"
+- "carModelLabel"
+- "carSubmodelLabel"
+- "car"
+depends-top-level:
+- "Car"
+- "UILabel"
+- "Bool"
+- "MyVehicleTableViewCell"
+- "UITableViewCell"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "car"]
+- ["Ps9AnyObject", "carMakeLabel"]
+- ["Ps9AnyObject", "carModelLabel"]
+- ["Ps9AnyObject", "carNameLabel"]
+- ["Ps9AnyObject", "carSubmodelLabel"]
+- ["Ps9AnyObject", "carYearLabel"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "awakeFromNib"]
+- ["Ps11CVarArgType", "car"]
+- ["Ps11CVarArgType", "carMakeLabel"]
+- ["Ps11CVarArgType", "carModelLabel"]
+- ["Ps11CVarArgType", "carNameLabel"]
+- ["Ps11CVarArgType", "carSubmodelLabel"]
+- ["Ps11CVarArgType", "carYearLabel"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "setSelected"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "car"]
+- ["Ps28CustomDebugStringConvertible", "carMakeLabel"]
+- ["Ps28CustomDebugStringConvertible", "carModelLabel"]
+- ["Ps28CustomDebugStringConvertible", "carNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "carSubmodelLabel"]
+- ["Ps28CustomDebugStringConvertible", "carYearLabel"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "car"]
+- ["Ps23CustomStringConvertible", "carMakeLabel"]
+- ["Ps23CustomStringConvertible", "carModelLabel"]
+- ["Ps23CustomStringConvertible", "carNameLabel"]
+- ["Ps23CustomStringConvertible", "carSubmodelLabel"]
+- ["Ps23CustomStringConvertible", "carYearLabel"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "car"]
+- ["Ps9Equatable", "carMakeLabel"]
+- ["Ps9Equatable", "carModelLabel"]
+- ["Ps9Equatable", "carNameLabel"]
+- ["Ps9Equatable", "carSubmodelLabel"]
+- ["Ps9Equatable", "carYearLabel"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "car"]
+- ["Ps8Hashable", "carMakeLabel"]
+- ["Ps8Hashable", "carModelLabel"]
+- ["Ps8Hashable", "carNameLabel"]
+- ["Ps8Hashable", "carSubmodelLabel"]
+- ["Ps8Hashable", "carYearLabel"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", ""]
+- ["C8Car_Care22MyVehicleTableViewCell", "Bool"]
+- ["C8Car_Care22MyVehicleTableViewCell", "Car"]
+- ["C8Car_Care22MyVehicleTableViewCell", "UILabel"]
+- ["C8Car_Care22MyVehicleTableViewCell", "awakeFromNib"]
+- ["C8Car_Care22MyVehicleTableViewCell", "car"]
+- ["C8Car_Care22MyVehicleTableViewCell", "carMakeLabel"]
+- ["C8Car_Care22MyVehicleTableViewCell", "carModelLabel"]
+- ["C8Car_Care22MyVehicleTableViewCell", "carNameLabel"]
+- ["C8Car_Care22MyVehicleTableViewCell", "carSubmodelLabel"]
+- ["C8Car_Care22MyVehicleTableViewCell", "carYearLabel"]
+- ["C8Car_Care22MyVehicleTableViewCell", "deinit"]
+- ["C8Car_Care22MyVehicleTableViewCell", "init"]
+- ["C8Car_Care22MyVehicleTableViewCell", "setSelected"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "car"]
+- ["PSo8NSCoding", "carMakeLabel"]
+- ["PSo8NSCoding", "carModelLabel"]
+- ["PSo8NSCoding", "carNameLabel"]
+- ["PSo8NSCoding", "carSubmodelLabel"]
+- ["PSo8NSCoding", "carYearLabel"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Car"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "car"]
+- ["CSo8NSObject", "carMakeLabel"]
+- ["CSo8NSObject", "carModelLabel"]
+- ["CSo8NSObject", "carNameLabel"]
+- ["CSo8NSObject", "carSubmodelLabel"]
+- ["CSo8NSObject", "carYearLabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "setSelected"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "car"]
+- ["PSo16NSObjectProtocol", "carMakeLabel"]
+- ["PSo16NSObjectProtocol", "carModelLabel"]
+- ["PSo16NSObjectProtocol", "carNameLabel"]
+- ["PSo16NSObjectProtocol", "carSubmodelLabel"]
+- ["PSo16NSObjectProtocol", "carYearLabel"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "car"]
+- ["PSo29UIAccessibilityIdentification", "carMakeLabel"]
+- ["PSo29UIAccessibilityIdentification", "carModelLabel"]
+- ["PSo29UIAccessibilityIdentification", "carNameLabel"]
+- ["PSo29UIAccessibilityIdentification", "carSubmodelLabel"]
+- ["PSo29UIAccessibilityIdentification", "carYearLabel"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "car"]
+- ["PSo12UIAppearance", "carMakeLabel"]
+- ["PSo12UIAppearance", "carModelLabel"]
+- ["PSo12UIAppearance", "carNameLabel"]
+- ["PSo12UIAppearance", "carSubmodelLabel"]
+- ["PSo12UIAppearance", "carYearLabel"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "car"]
+- ["PSo21UIAppearanceContainer", "carMakeLabel"]
+- ["PSo21UIAppearanceContainer", "carModelLabel"]
+- ["PSo21UIAppearanceContainer", "carNameLabel"]
+- ["PSo21UIAppearanceContainer", "carSubmodelLabel"]
+- ["PSo21UIAppearanceContainer", "carYearLabel"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "car"]
+- ["PSo17UICoordinateSpace", "carMakeLabel"]
+- ["PSo17UICoordinateSpace", "carModelLabel"]
+- ["PSo17UICoordinateSpace", "carNameLabel"]
+- ["PSo17UICoordinateSpace", "carSubmodelLabel"]
+- ["PSo17UICoordinateSpace", "carYearLabel"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "car"]
+- ["PSo13UIDynamicItem", "carMakeLabel"]
+- ["PSo13UIDynamicItem", "carModelLabel"]
+- ["PSo13UIDynamicItem", "carNameLabel"]
+- ["PSo13UIDynamicItem", "carSubmodelLabel"]
+- ["PSo13UIDynamicItem", "carYearLabel"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "car"]
+- ["PSo18UIFocusEnvironment", "carMakeLabel"]
+- ["PSo18UIFocusEnvironment", "carModelLabel"]
+- ["PSo18UIFocusEnvironment", "carNameLabel"]
+- ["PSo18UIFocusEnvironment", "carSubmodelLabel"]
+- ["PSo18UIFocusEnvironment", "carYearLabel"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "car"]
+- ["PSo27UIGestureRecognizerDelegate", "carMakeLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "carModelLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "carNameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "carSubmodelLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "carYearLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Car"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "car"]
+- ["CSo11UIResponder", "carMakeLabel"]
+- ["CSo11UIResponder", "carModelLabel"]
+- ["CSo11UIResponder", "carNameLabel"]
+- ["CSo11UIResponder", "carSubmodelLabel"]
+- ["CSo11UIResponder", "carYearLabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "Car"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "car"]
+- ["CSo15UITableViewCell", "carMakeLabel"]
+- ["CSo15UITableViewCell", "carModelLabel"]
+- ["CSo15UITableViewCell", "carNameLabel"]
+- ["CSo15UITableViewCell", "carSubmodelLabel"]
+- ["CSo15UITableViewCell", "carYearLabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "car"]
+- ["PSo18UITraitEnvironment", "carMakeLabel"]
+- ["PSo18UITraitEnvironment", "carModelLabel"]
+- ["PSo18UITraitEnvironment", "carNameLabel"]
+- ["PSo18UITraitEnvironment", "carSubmodelLabel"]
+- ["PSo18UITraitEnvironment", "carYearLabel"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "Car"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "car"]
+- ["CSo6UIView", "carMakeLabel"]
+- ["CSo6UIView", "carModelLabel"]
+- ["CSo6UIView", "carNameLabel"]
+- ["CSo6UIView", "carSubmodelLabel"]
+- ["CSo6UIView", "carYearLabel"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "setSelected"]
+- ["Ps12_Reflectable", "awakeFromNib"]
+- ["Ps12_Reflectable", "car"]
+- ["Ps12_Reflectable", "carMakeLabel"]
+- ["Ps12_Reflectable", "carModelLabel"]
+- ["Ps12_Reflectable", "carNameLabel"]
+- ["Ps12_Reflectable", "carSubmodelLabel"]
+- ["Ps12_Reflectable", "carYearLabel"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "setSelected"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C8Car_Care22MyVehicleTableViewCell"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/setiyadi/Projects/Xcode/Car Care Demo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "f255554b5f831886dd353269f6bfdb8f"

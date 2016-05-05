@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/setiyadi/Projects/Xcode/Car Care/Build/Intermediates/ArchiveIntermediates/Car Care/BuildProductsPath/Release-iphoneos/Alamofire.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/setiyadi/Projects/Xcode/Car Care/Build/Intermediates/ArchiveIntermediates/Car Care/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Alamofire.build/unextended-module.modulemap',
+    }]
+  }]
+}
